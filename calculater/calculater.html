@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="calculater.css">
+</head>
+<body>
+ <h1>calculater using javacript</h1>
+ <div class="formstyle">
+ <form name="calc">
+    <input id="ans" type="text" name="answer"><br><br>
+        <input type="button" value="1" name="1" onclick="calc.answer.value+='1'">
+        <input type="button" value="2"name="2" onclick="calc.answer.value+='2'">
+        <input type="button" value="3"name="3" onclick="calc.answer.value+='3'">
+        <input type="button" value="+"name="+" onclick="calc.answer.value+='+'"><br><br>
+        <input type="button" value="4"name="4" onclick="calc.answer.value+='4'">
+        <input type="button" value="5"name="5" onclick="calc.answer.value+='5'">
+        <input type="button"value="6" name="6" onclick="calc.answer.value+='6'">
+        <input type="button" value="-"name="-" onclick="calc.answer.value+='-'"><br><br>
+        <input type="button"  value="7"name="7" onclick="calc.answer.value+='7'">
+        <input type="button" value="8"name="8" onclick="calc.answer.value+='8'">
+        <input type="button"value="9" name="9" onclick="calc.answer.value+='9'">
+        <input type="button" value="*"name="*" onclick="calc.answer.value+='*'"><br><br>
+        <input type="button" value="/" name="/" onclick="calc.answer.value+='/'">
+        <input type="button"value="0" name="0" onclick="calc.answer.value+='0'">
+        <input type="button" value="."name="." onclick="calc.answer.value+='.'">
+        <input type="button" value="=" name="=" onclick="calc.answer.value=eval(calc.answer.value)">
+        <br><br>
+        <input type="button" value="clear all" name="clear all" onclick="calc.answer.value= ' '" id="clear">
+        
+    </form> 
+ </div>  
+</body>
+</html>
