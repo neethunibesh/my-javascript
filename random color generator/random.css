@@ -1,0 +1,28 @@
+.main{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 50%;
+}
+    h1{
+      text-align: center;
+      
+    }
+    .color{
+        background-color: aqua;
+        border-color: black;
+        width: 300px;
+        height: 330px;
+        margin: auto;
+        border: 3px solid rgb(235, 165, 135);
+        border-radius: 5px;
+        padding: 20px;
+    
+    }
+    button{
+        color: aliceblue;
+       background-color: black;
+       border-color: brown;
+       margin: 45%;
+
+    }
+
