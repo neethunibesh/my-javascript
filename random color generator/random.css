@@ -1,7 +1,7 @@
-.main{
+#main{
     text-align: center;
-    background-color: aliceblue;
-    margin: 50%;
+    background-color: rgb(232, 204, 109);
+    margin: 15%;
 }
     h1{
       text-align: center;

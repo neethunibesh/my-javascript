@@ -8,10 +8,10 @@ function getRandomColor()
     return color;
   }
 
-  function generate() {
+  function setRandomColor() {
     $(".color").css("background-color", getRandomColor());
-    $(".main").css("background-color", getRandomColor());
-    $("h1").css("background-color", getRandomColor());
-    $("h1").css("color", getRandomColor());
+     $("#main").css("background-color", getRandomColor());
+    // $("h1").css("background-color", getRandomColor());
+    // $("h1").css("color", getRandomColor());
   }
 
