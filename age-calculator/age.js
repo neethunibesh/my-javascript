@@ -51,10 +51,10 @@ function age() {
     }
 
 if(year<year1){
-    year1=d1;
-    year=db1;
+  d1=  year1;
+    db1=year;
 
-     d1 =db1 -d1;
+     d1 =d1 -db1;
     // day1=day1-1;
 }
 else
